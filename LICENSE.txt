@@ -2,7 +2,7 @@ The Star And Thank Author License (SATA)
 
 Copyright (c) 2016 danlei(jne0915@gmail.com)
 
-Project Url: github.com/jne0915/resume
+Project Url: github.com/danaive/resume
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
