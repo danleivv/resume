@@ -122,6 +122,9 @@
             li {
                 margin-bottom: 3px;
             }
+            .honor-cate {
+                margin-top: 20px;
+            }
         </style>
     </head>
     <body>
@@ -129,7 +132,7 @@
             <!-- <img src='danlei.4bb32d0d.jpg' /> -->
             <div class='highlight'>
                 <h3>王丹磊</h3>
-                <h5>求职岗位：机器学习工程师</h5>
+                <h5>求职岗位：算法/机器学习/深度学习 工程师</h5>
             </div>
         </div>
         <div class='header header-right'>
@@ -175,7 +178,7 @@
                     <span class='h5'>竞赛获奖</span>
                 </p>
                 <div class='inner-content'>
-                    <p class='h6'>程序设计 &amp; 算法竞赛</p>
+                    <p class='h6 honor-cate'>程序设计 &amp; 算法竞赛</p>
                     <div class='honor'>
                         <strong>
                             <span>2013.10</span>
@@ -198,7 +201,7 @@
                         </strong>
                         <p>华中区高校研究生程序设计大赛</p>
                     </div>
-                    <p class='h6'>信息安全 &amp; CTF竞赛</p>
+                    <p class='h6 honor-cate'>信息安全 &amp; CTF竞赛</p>
                     <div class='honor'>
                         <strong>
                             <span>2014.08</span>
@@ -216,7 +219,7 @@
                         </strong>
                         <p>全国大学生信息安全大赛</p>
                     </div>
-                    <p class='h6'>数据科学</p>
+                    <p class='h6 honor-cate'>数据科学</p>
                     <div class='honor'>
                         <strong>
                             <span>2017.03</span>
@@ -224,7 +227,7 @@
                         </strong>
                         <p>Leaf Classification Contest @ Kaggle</p>
                     </div>
-                    <p class='h6'>学业成绩</p>
+                    <p class='h6 honor-cate'>学业成绩</p>
                     <div class='honor'>
                         <strong>
                             <span>2015-16</span>
@@ -254,7 +257,7 @@
                             熟练掌握 Python 程序设计及其数据科学相关模块使用，包括 numpy, scipy, pandas, matplotlib, scikit-learn 等。
                         </li>
                         <li>
-                            掌握常用的深度学习框架，如 Tensorflow，Keras，MXNet 等。
+                            掌握 Tensorflow，Keras，PyTorch 等主流的深度学习框架。
                         </li>
                         <li>
                             熟悉 Shellscript 应用以及 *nix 环境下开发工作。
@@ -281,7 +284,7 @@
                     </p>
                     <div class='text-muted' style='margin-bottom: 6mm;'>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        使用卷积神经网络对99类叶片根据其轮廓特征和质地特征进行识别，使用旋转、放缩、翻转方式对轮廓特征进行增强，在模型中将轮廓特征经过卷积层后与质地特征合并作为全连接层输入。预测准确率99%+，在 Kaggle 中排名 32/1600。
+                        使用卷积神经网络对99类叶片根据其轮廓特征和质地特征进行识别，在样本预处理阶段使用旋转、放缩、翻转方式对轮廓特征进行增强，在模型中将轮廓特征经过卷积层后与质地特征合并作为全连接层输入。预测准确率99%+，在 Kaggle 中排名 32/1600。
                     </div>
                     <p style='margin-bottom: 2mm;'>
                         <span class='h6'>OAuth 2.0 协议商业部署的安全性分析</span>
@@ -299,25 +302,19 @@
                         <i class="fa fa-square-o fa-stack-2x"></i>
                         <i class="fa fa-cogs fa-stack-1x"></i>
                     </span>
-                    <span class='h5'>项目经验</span>
+                    <span class='h5'>实习经历</span>
                 </p>
                 <div class='inner-content'>
-                    <p class='h6 exp'>
-                        武汉大学网络攻防实训平台
-                    </p>
-                    <p>
-                        独立开发
-                        <span class='timelable'>2016.02 - 2016.09</span>
+                    <p style='margin-bottom: 2mm;'>
+                        <span class='h6'>腾讯科技 | 机器学习工程师</span>
+                        <span class='timelable'>2017.07 - 2017.08</span>
                     </p>
                     <ul class='list text-muted'>
                         <li>
-                            平台基于 B/S 架构，用于信息安全专业学生实战训练。
+                            <b>无监督方言语料判别：</b>对特征词与地域的频率矩阵进行奇异值分解，将特征词与地域转化为同一高维空间向量，筛选到个地域余弦距离方差较大的特征词，依据文本中所含的保留特征词向量判断文本为方言的可能性。模型在判断各地域方言都平均准确度为93%。
                         </li>
                         <li>
-                            采用 Linux/Nginx/Mysql/Python 架构, 前端使用 Jade/CoffeeScript 开发, 应用 Docker 部署 CTF 类型赛题.
-                        </li>
-                        <li>
-                            实现了创建比赛、组织训练、讨论以及基础的社区功能，自2016年9月投入使用。
+                            <b>基于 Encode/Decode 架构的生成式聊天机器人：</b>使用双向 LSTM 构建 Encode 层，采用注意力模型代替定长中间状态向量以提升回答的准确性，引入最大互信息(MMI)改进传统目标函数以提升回答的多样性。模型的BLEU指标较原有方案提升30%。
                         </li>
                     </ul>
                 </div>
